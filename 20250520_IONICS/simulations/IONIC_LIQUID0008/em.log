@@ -46,8 +46,8 @@ of the License, or (at your option) any later version.
 GROMACS:      gmx mdrun, version 2025.2
 Executable:   /usr/local/gromacs/bin/gmx
 Data prefix:  /usr/local/gromacs
-Working dir:  /home/yongsang/Research/PSID_server_room/[00]BAMOF/00_ionic_structure/03_GROMACS/simulations/IONIC_LIQUID0008
-Process ID:   983137
+Working dir:  /home/yongsang/GROMACS_temp/20250520_IONICS/simulations/IONIC_LIQUID0008
+Process ID:   1081082
 Command line:
   gmx mdrun -deffnm em
 
@@ -169,7 +169,7 @@ Input Parameters:
    comm-mode                      = Linear
    nstcomm                        = 100
    bd-fric                        = 0
-   ld-seed                        = 1870362046
+   ld-seed                        = -86120531
    emtol                          = 1000
    emstep                         = 0.01
    niter                          = 20
@@ -402,7 +402,7 @@ Note that activating steepest-descent energy minimization via the integrator .md
 Initiating Steepest Descents
 
 Atom distribution over 1 domains: av 40 stddev 0 min 40 max 40
-Started Steepest Descents on rank 0 Tue May 20 22:06:39 2025
+Started Steepest Descents on rank 0 Tue May 20 23:38:34 2025
 
 
 Steepest Descents:
@@ -482,5 +482,5 @@ Norm of force     =  1.9489578e+02
 
  av. #atoms communicated per step for force:  2 x 0.0
 
-Finished mdrun on rank 0 Tue May 20 22:06:39 2025
+Finished mdrun on rank 0 Tue May 20 23:38:34 2025
 

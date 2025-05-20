@@ -2,14 +2,14 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: yongsang (1007)
 ;	On host: ga00
-;	At date: Tue May 20 21:53:54 2025
+;	At date: Tue May 20 23:29:35 2025
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2025.2 (-:
 ;	
 ;	Executable:   /usr/local/gromacs/bin/gmx
 ;	Data prefix:  /usr/local/gromacs
-;	Working dir:  /home/yongsang/Research/PSID_server_room/[00]BAMOF/00_ionic_structure/03_GROMACS/simulations/IONIC_LIQUID0006
+;	Working dir:  /home/yongsang/GROMACS_temp/20250520_IONICS/simulations/IONIC_LIQUID0006
 ;	Command line:
 ;	  gmx grompp -f md.mdp -c npt.gro -r npt.gro -t npt.cpt -p topol.top -o md.tpr -maxwarn 2
 
@@ -175,7 +175,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen_vel                  = no
 gen-temp                 = 300
-gen-seed                 = 2111360954
+gen-seed                 = -272896182
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds
